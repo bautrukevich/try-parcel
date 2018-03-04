@@ -1,0 +1,21 @@
+{
+  "name": "@bautrukevich/try-parcel",
+  "version": "0.1.0",
+  "description": "Quick start with parcel bundler",
+  "main": "src/index.js",
+  "author": "Siarhei Bautrukevich",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html && parcel watch index.html",
+    "test": "jest test.js --notify --watchAll",
+    "build": "parcel build src/index.js -d build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.2",
+    "jest": "^22.4.2",
+    "parcel-bundler": "^1.6.2"
+  }
+}
