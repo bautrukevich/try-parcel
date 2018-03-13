@@ -32,5 +32,5 @@ node_modules
 # Cache
 .cache
 
-# dist
-.dist
+# build
+build
